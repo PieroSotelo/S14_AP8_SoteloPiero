@@ -40,3 +40,19 @@
 .card:hover {
   transform: scale(1.05);
 }
+
+
+.logout-btn {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.logout-btn:hover {
+  background-color: #ccc;
+}

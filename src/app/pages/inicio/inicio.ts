@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { RouterLink, Router } from '@angular/router';
+import { Auth } from '../../services/auth';
 
 @Component({
   selector: 'app-inicio',
@@ -8,4 +9,11 @@ import { RouterLink } from '@angular/router';
   templateUrl: './inicio.html',
   styleUrl: './inicio.css'
 })
-export class InicioComponent {}
+export class InicioComponent {
+  constructor(private auth: Auth, private router: Router) {}
+
+  cerrarSesion(): void {
+    this.auth.logout();
+    this.router.navigate(['/login']);
+  }
+}
