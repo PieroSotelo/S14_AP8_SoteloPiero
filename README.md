@@ -1,6 +1,29 @@
+
+
 # S13AP7SoteloPiero
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.14.
+
+
+# Sistema de Gestión
+
+Proyecto desarrollado con Angular.
+
+## Funcionalidades
+
+- Login
+- Gestión de productos
+- Gestión de personas
+- Gestión de proveedores
+- Navegación mediante Routing
+
+## Tecnologías
+
+- Angular
+- TypeScript
+- HTML
+- CSS
+
 
 ## Development server
 
